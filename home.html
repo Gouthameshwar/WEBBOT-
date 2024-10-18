@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WEB BOT</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="light-mode">
+  <nav class="navbar">
+    <div class="logo">WEB BOT</div>
+    <ul class="nav-links">
+      <li><a href="home.html">Home</a></li>
+      <li><a href="#">Features</a></li>
+      <li><a href="#">About</a></li>
+    </ul>
+    <button id="mode-toggle" class="mode-toggle">&#9728;</button>
+  </nav>
+
+  <div class="background-text">
+    <p>WEB BOT: Path To Study Resources</p>
+  </div>
+
+  <div class="chatgpt-container">
+    <div id="history-log" class="message-history"></div>
+
+    <div class="chatgpt-body" id="chat-box">
+      <div id="chat-log" class="chat-log"></div>
+
+      <form id="user-input-form" class="user-input-form">
+        <button type="button" id="voice-input-btn" class="voice-input-btn"><i style="font-size:24px"><a>&#xf130;</a></i></button>
+        <input type="text" id="user-input" class="user-input" placeholder="Ask me anything...">
+        <button type="submit" class="send-button">➤</button>
+      </form>
+    </div>
+  </div>
+
+  <div class="chatbot-logo">
+    <img src="logop" alt="Chatbot Logo"><a>&#9883;</a>
+  </div>
+
+  <script src="core.js"></script>
+</body>
+</html>
